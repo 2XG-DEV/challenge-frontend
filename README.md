@@ -21,7 +21,7 @@ PrismaORM + SQLite were chosen because Prisma allows for easilly changing the DB
 For the first part of the challenge : "approaching the architecture of an e-commerce application", I have decided for a feature based folder structure for both frontend and backend, such a folder structure allows for a intuitive layout of the files allowing them to be more easilly found, in my experience this kind of layout allows developers to more easilly get back into a project after not working on the project for a longer period of time. This structure also allows developers to more easilly analyse dependencies and see weaknesses of the system, it also allows for features to be developed more independently and makes it easier to break a "monolithic" architecture into microservices / microfrontends based on the different features
 
 ```
-/your-app
+/app
 |-- /src
     |-- /products
         |-- /components
